@@ -7,6 +7,7 @@ def bubbleSort(array):
     for j in range(0, len(array) - i - 1):
 
     # Using < to sort in descending order
+    # commited error, now sorting in descending order instead of ascending order
       if array[j] < array[j + 1]:
 
         temp = array[j]
